@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mohit Broker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            background-image: url('contact.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+        }
+        .contact-info {
+            padding: 50px 0;
+        }
+        .contact-info h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            background-color: white; 
+            padding: 50px 0;
+        }
+        .contact-form h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .contact-form form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-control:focus {
+            border-color: #007BFF;
+        }
+        .btn-primary {
+            background-color: #007BFF; 
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mohit Broker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're Here to Assist You</p>
+        </div>
+    </header>
+
+    <section class="contact-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions or need assistance? Contact us through the following methods:</p>
+                    <p><strong>Email:</strong> mohitbroker.info@gmail.com.com</p>
+                    <p><strong>Phone:</strong> +91 92652 79710</p>
+                    <p><strong>Address:</strong> 12 Stock Street, Suite 45, , Navsari , Gujrat</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Office Hours</h2>
+                    <p>Our office is open Monday to Friday from 9:00 AM to 5:00 PM (local time). Feel free to visit us during these hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <h2>Contact Form</h2>
+            <p>Send us a message using the form below, and we'll get back to you as soon as possible.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
